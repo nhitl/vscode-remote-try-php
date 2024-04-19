@@ -18,10 +18,13 @@ function sayHello($name) {
 	<body>
 		<?php 
 		
-		sayHello('remote world');
-			
-		phpinfo(); 
-			
+		define("PI",3.14);
+		$r=10;
+		$s=PI*pow($r,2);
+		$p=2*PI*$r;
+			echo "$p </br>";
+			echo $s;
+			//ok
 		?>
 	</body>
 </html>
